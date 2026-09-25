@@ -50,6 +50,14 @@ public class ejemplos extends JFrame {
 		});
 		btnNewButton.setBounds(41, 10, 84, 20);
 		contentPane.add(btnNewButton);
+JButton btnNewButton_1 = new JButton("alan");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "hola desde master2");
+			}
+		});
+		btnNewButton_1.setBounds(41, 51, 84, 20);
+		contentPane.add(btnNewButton_1);
 
 	}
 }
